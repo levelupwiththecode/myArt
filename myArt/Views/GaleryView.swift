@@ -7,46 +7,52 @@
 
 import SwiftUI
 
-
 struct GalleryView: View {
     @StateObject private var viewmodel = ArtworksViewModel()
+    
+ /*   var layout = [ GridItem(.fixed(80)),
+                   GridItem(.fixed(80)),
+                   GridItem(.fixed(80))
+                   ]
+  */
+    
+    var layout = [
+        GridItem(.flexible()),
+        GridItem(.flexible()),
+       // GridItem(.flexible())
+    ]
         
     var body: some View {
         NavigationView {
             ScrollView {
-               
-                ForEach(viewmodel.artworks) { artwork in
-                    NavigationLink(destination: ArtworkDetailView(artwork: artwork)) {
-                    VStack {
-                        
-                        GeometryReader { geometry in
-                            Image(artwork.imageName)
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: geometry.size.width, height: geometry.size.height)
-                            
-                                .clipped()
-
+                LazyVGrid(columns: layout) {
+                    ForEach(viewmodel.artworks) { artwork in
+                        NavigationLink(destination: ArtworkDetailView(artwork: artwork)) {
+                            VStack {
+                                
+                                GeometryReader { geometry in
+                                    Image(artwork.imageName)
+                                        .resizable()
+                                        .scaledToFit()
+                                        .frame(width: geometry.size.width, height: geometry.size.height)
+                                    
+                                        .clipped()
+                                    
+                                }
+                                .aspectRatio(1, contentMode: .fit)
+                                
+                                
+                                Text(artwork.title)
+                                    .font(.title)
+                                    .foregroundColor(Color.black)
+                            }
                         }
-                        .aspectRatio(1, contentMode: .fit)
-                        
-                        
-                        Text(artwork.title)
-                            .font(.title)
-                            .foregroundColor(Color.black)
+                    }
                     }
                 }
-                }
-
-                    }
-                .padding()
-                .navigationTitle("Galerie d'Art")
-
             }
         }
-    
-}
-
+    }
     
     
 
