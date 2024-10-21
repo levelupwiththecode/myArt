@@ -50,6 +50,7 @@ struct GalleryView: View {
                     }
                     }
                 }
+            .navigationTitle("Gallerie d'art")
             }
         }
     }
