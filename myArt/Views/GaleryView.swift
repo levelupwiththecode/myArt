@@ -7,14 +7,10 @@
 
 import SwiftUI
 
+
 struct GalleryView: View {
     @StateObject private var viewmodel = ArtworksViewModel()
     
- /*   var layout = [ GridItem(.fixed(80)),
-                   GridItem(.fixed(80)),
-                   GridItem(.fixed(80))
-                   ]
-  */
     
     var layout = [
         GridItem(.flexible()),
@@ -51,6 +47,9 @@ struct GalleryView: View {
                     }
                 }
             .navigationTitle("Gallerie d'art")
+          //  .onAppear {
+           //     viewmodel.fetchArtworks()
+           // }
             }
         }
     }
@@ -60,4 +59,5 @@ struct GalleryView: View {
 #Preview {
     GalleryView()
 }
+
 
