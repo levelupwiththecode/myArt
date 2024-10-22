@@ -16,6 +16,8 @@
 		756E92A32C9C8E6D00378F6F /* ArtworksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756E92A22C9C8E6D00378F6F /* ArtworksViewModel.swift */; };
 		756E92A82C9C975800378F6F /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756E92A72C9C975800378F6F /* ARView.swift */; };
 		8E1E5A9B2CC6940800F0F569 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E5A9A2CC693F300F0F569 /* Artist.swift */; };
+		8E1E5A9D2CC6963800F0F569 /* ArtistViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E5A9C2CC695E900F0F569 /* ArtistViewModel.swift */; };
+		8E1E5AA42CC6A14E00F0F569 /* ArtistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E5AA32CC6A14E00F0F569 /* ArtistsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		756E92A72C9C975800378F6F /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
 		756E92A92C9C977E00378F6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8E1E5A9A2CC693F300F0F569 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		8E1E5A9C2CC695E900F0F569 /* ArtistViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistViewModel.swift; sourceTree = "<group>"; };
+		8E1E5AA32CC6A14E00F0F569 /* ArtistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsView.swift; sourceTree = "<group>"; usesTabs = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				756E92922C9C8DFA00378F6F /* GaleryView.swift */,
+				8E1E5AA32CC6A14E00F0F569 /* ArtistsView.swift */,
 				755F38E52CC3016300ADE2A8 /* ArtworkDetailView.swift */,
 				756E92A72C9C975800378F6F /* ARView.swift */,
 			);
@@ -103,6 +108,7 @@
 		756E92A42C9C8E7300378F6F /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				8E1E5A9C2CC695E900F0F569 /* ArtistViewModel.swift */,
 				756E92A22C9C8E6D00378F6F /* ArtworksViewModel.swift */,
 			);
 			path = ViewModels;
@@ -181,6 +187,8 @@
 				756E929F2C9C8E2800378F6F /* Artworks.swift in Sources */,
 				756E92932C9C8DFA00378F6F /* GaleryView.swift in Sources */,
 				756E92912C9C8DFA00378F6F /* myArtApp.swift in Sources */,
+				8E1E5A9D2CC6963800F0F569 /* ArtistViewModel.swift in Sources */,
+				8E1E5AA42CC6A14E00F0F569 /* ArtistsView.swift in Sources */,
 				756E92A32C9C8E6D00378F6F /* ArtworksViewModel.swift in Sources */,
 				756E92A82C9C975800378F6F /* ARView.swift in Sources */,
 				755F38E62CC3016300ADE2A8 /* ArtworkDetailView.swift in Sources */,
