@@ -17,11 +17,6 @@ struct  DiscoverMuseumView: View {
         GridItem(.flexible())
     ]
     
-    var logoImage = ["logoBritish","logoDelPrado","logoMetropolitan","logoLouvre"]
-    var log = ""
-    
-    
-    
     
     var body: some View {
         
