@@ -28,11 +28,12 @@ struct DetailMuseumView: View {
                 .padding(30)
             VStack(alignment: .leading)
             {
-                HStack
+                VStack(alignment: .leading)
                 {
                     Text("Description:")
                         .fontWeight(.bold)
                     Text(museum.descriptionMusee)
+                        
                 }
                 HStack
                 {
@@ -54,6 +55,7 @@ struct DetailMuseumView: View {
                     Text("\(museum.adresseMusee),\(museum.postalCodeMusee)")
                 }
             }
+            
         }.padding()
     }
     

@@ -27,7 +27,7 @@ struct ARViewContainer: UIViewRepresentable {
         // Ajouter du contenu à afficher
         let plane = SCNPlane(width: 0.5, height: 0.7)
         let material = SCNMaterial()
-        material.diffuse.contents = UIImage(named: artwork.imageName)
+        material.diffuse.contents = UIImage(named: artwork.imageArt)
         plane.materials = [material]
 
         let planeNode = SCNNode(geometry: plane)

@@ -13,25 +13,25 @@ struct ArtworkDetailView: View {
     
     var body: some View {
         VStack {
-            Image(artwork.imageName)
+            Image(artwork.imageArt)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(height: 300)
                 .cornerRadius(10)
 
-            Text(artwork.title)
+            Text(artwork.nameArt)
                 .font(.title)
                 .padding()
 
-            Text("Artiste: \(artwork.artist)")
+            Text("Artiste: \(artwork.nameArtistArt)")
                 .font(.subheadline)
                 .padding(.bottom, 5)
 
-            Text("Année: \(artwork.year)")
+            Text("Année: \(artwork.dateArt)")
                 .font(.subheadline)
                 .padding(.bottom, 10)
 
-            Text(artwork.description)
+            Text(artwork.descriptionArt)
                 .padding()
 
             Spacer()
