@@ -22,6 +22,7 @@
 		F5109CE92CC8F95300B49DDF /* DiscoverGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5109CE82CC8F95300B49DDF /* DiscoverGalleryView.swift */; };
 		F5109CEA2CC8F95300B49DDF /* DetailMuseumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5109CE72CC8F95300B49DDF /* DetailMuseumView.swift */; };
 		F5109CEC2CC8F96200B49DDF /* MuseumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5109CEB2CC8F96200B49DDF /* MuseumViewModel.swift */; };
+		F5109CEE2CC9165400B49DDF /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5109CED2CC9165400B49DDF /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		F5109CE72CC8F95300B49DDF /* DetailMuseumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMuseumView.swift; sourceTree = "<group>"; };
 		F5109CE82CC8F95300B49DDF /* DiscoverGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverGalleryView.swift; sourceTree = "<group>"; };
 		F5109CEB2CC8F96200B49DDF /* MuseumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumViewModel.swift; sourceTree = "<group>"; };
+		F5109CED2CC9165400B49DDF /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				8E1E5AA32CC6A14E00F0F569 /* ArtistsView.swift */,
 				F5109CE72CC8F95300B49DDF /* DetailMuseumView.swift */,
 				F5109CE82CC8F95300B49DDF /* DiscoverGalleryView.swift */,
+				F5109CED2CC9165400B49DDF /* TabBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				F5109CEA2CC8F95300B49DDF /* DetailMuseumView.swift in Sources */,
 				8E1E5A9B2CC6940800F0F569 /* Artist.swift in Sources */,
 				F5109CE62CC8F94600B49DDF /* Museum.swift in Sources */,
+				F5109CEE2CC9165400B49DDF /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

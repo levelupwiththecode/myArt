@@ -26,7 +26,7 @@ struct  DiscoverMuseumView: View {
             
             NavigationStack
             {
-                
+             
                 ScrollView
                 {
                     
