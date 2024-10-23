@@ -6,3 +6,21 @@
 //
 
 import Foundation
+
+class Museum: Codable,Identifiable
+{
+    var idMusee: UUID?
+    var nomMusee:String
+    var descriptionMusee:String
+    var imageMusee:String
+    var adresseMusee :String
+    var postalCodeMusee :String
+    var cityMusee :String
+    var countryMusee :String
+    var latitudeMusee :Float
+    var longitudeMusee :Float
+    var heureOuvertureMusee :String
+    var heureFermetureMusee :String
+    
+    
+}

@@ -8,11 +8,23 @@
 import SwiftUI
 
 struct DetailMuseumView: View {
+   // var nameValue = ""
+    var museum:Museum
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack
+        {
+            Image(museum.imageMusee)
+                .resizable()
+                .frame(width:300,height: 200)
+            Text(museum.nomMusee)
+            Text(museum.descriptionMusee)
+            Text(museum.countryMusee)
+            
+        }
+        .padding()
     }
 }
 
-#Preview {
-    DetailMuseumView()
-}
+
