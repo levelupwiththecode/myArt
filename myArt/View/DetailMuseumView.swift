@@ -7,24 +7,59 @@
 
 import SwiftUI
 
+
+
 struct DetailMuseumView: View {
-   // var nameValue = ""
+    // var nameValue = ""
     var museum:Museum
     
     var body: some View {
         
+        
+        Text(museum.nomMusee)
+            .fontWeight(.bold)
+            .font(.system(size: 44))
         VStack
         {
+                
             Image(museum.imageMusee)
                 .resizable()
                 .frame(width:300,height: 200)
-            Text(museum.nomMusee)
-            Text(museum.descriptionMusee)
-            Text(museum.countryMusee)
-            
-        }
-        .padding()
+                .padding(30)
+            VStack(alignment: .leading)
+            {
+                HStack
+                {
+                    Text("Description:")
+                        .fontWeight(.bold)
+                    Text(museum.descriptionMusee)
+                }
+                HStack
+                {
+                    Text("Pays:")
+                        .fontWeight(.bold)
+                    Text(museum.countryMusee)
+                }
+                
+                HStack
+                {
+                    Text("Ville:")
+                        .fontWeight(.bold)
+                    Text(museum.cityMusee)
+                }
+                HStack
+                {
+                    Text("Adresse:")
+                        .fontWeight(.bold)
+                    Text("\(museum.adresseMusee),\(museum.postalCodeMusee)")
+                }
+            }
+        }.padding()
     }
+    
 }
+
+
+
 
 

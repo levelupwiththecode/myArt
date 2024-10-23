@@ -41,10 +41,10 @@ struct  DiscoverMuseumView: View {
                                     Image(museum.imageMusee)
                                         .resizable()
                                         .frame(width: 150, height: 100)
-                                    
-                                    
+                                    //-------------
                                     Text(museum.nomMusee)
                                         .foregroundStyle(.black)
+                                        .fontWeight(.bold)
                                 }
                                
                             })
@@ -58,7 +58,7 @@ struct  DiscoverMuseumView: View {
                     
                     
                 }
-                .navigationTitle("Discovers Museums")
+                .navigationTitle("Discovers Museums :")
                 .onAppear{viewModel.fetchMuseums()}
                 .padding()
                 
