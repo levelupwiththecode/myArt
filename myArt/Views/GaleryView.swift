@@ -15,31 +15,28 @@ struct GalleryView: View {
     var layout = [
         GridItem(.flexible()),
         GridItem(.flexible()),
-       // GridItem(.flexible())
+       
     ]
         
     var body: some View {
         NavigationView {
             ScrollView {
-                LazyVGrid(columns: layout) {
+                LazyVGrid(columns: layout, spacing: 20) {
                     ForEach(viewmodel.artworks) { artwork in
                         NavigationLink(destination: ArtworkDetailView(artwork: artwork)) {
                             VStack {
                                 
-                                GeometryReader { geometry in
                                     Image(artwork.imageName)
                                         .resizable()
                                         .scaledToFit()
-                                        .frame(width: geometry.size.width, height: geometry.size.height)
+                                        .frame(width: 150, height: 150)
                                     
                                         .clipped()
                                     
-                                }
-                                .aspectRatio(1, contentMode: .fit)
+
                                 
                                 
                                 Text(artwork.title)
-                                    .font(.title)
                                     .foregroundColor(Color.black)
                             }
                         }

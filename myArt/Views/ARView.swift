@@ -31,7 +31,7 @@ struct ARViewContainer: UIViewRepresentable {
         plane.materials = [material]
 
         let planeNode = SCNNode(geometry: plane)
-        planeNode.position = SCNVector3(0, 0, -2)  // À 1 mètre devant la caméra
+        planeNode.position = SCNVector3(0, 0, -1)  // À 1 mètre devant la caméra
 
         uiView.scene.rootNode.addChildNode(planeNode)
     }
