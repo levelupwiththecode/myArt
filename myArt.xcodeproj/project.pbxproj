@@ -7,18 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		755F38E62CC3016300ADE2A8 /* ArtworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755F38E52CC3016300ADE2A8 /* ArtworkDetailView.swift */; };
 		756E92912C9C8DFA00378F6F /* myArtApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756E92902C9C8DFA00378F6F /* myArtApp.swift */; };
-		756E92932C9C8DFA00378F6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756E92922C9C8DFA00378F6F /* ContentView.swift */; };
+		756E92932C9C8DFA00378F6F /* GaleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756E92922C9C8DFA00378F6F /* GaleryView.swift */; };
 		756E92952C9C8DFB00378F6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 756E92942C9C8DFB00378F6F /* Assets.xcassets */; };
 		756E92982C9C8DFB00378F6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 756E92972C9C8DFB00378F6F /* Preview Assets.xcassets */; };
+		756E929F2C9C8E2800378F6F /* Artworks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756E929E2C9C8E2800378F6F /* Artworks.swift */; };
+		756E92A32C9C8E6D00378F6F /* ArtworksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756E92A22C9C8E6D00378F6F /* ArtworksViewModel.swift */; };
+		756E92A82C9C975800378F6F /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756E92A72C9C975800378F6F /* ARView.swift */; };
+		8E1E5A9B2CC6940800F0F569 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E5A9A2CC693F300F0F569 /* Artist.swift */; };
+		8E1E5A9D2CC6963800F0F569 /* ArtistViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E5A9C2CC695E900F0F569 /* ArtistViewModel.swift */; };
+		8E1E5AA42CC6A14E00F0F569 /* ArtistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E5AA32CC6A14E00F0F569 /* ArtistsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		755F38E52CC3016300ADE2A8 /* ArtworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkDetailView.swift; sourceTree = "<group>"; };
 		756E928D2C9C8DFA00378F6F /* myArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		756E92902C9C8DFA00378F6F /* myArtApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myArtApp.swift; sourceTree = "<group>"; };
-		756E92922C9C8DFA00378F6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		756E92922C9C8DFA00378F6F /* GaleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaleryView.swift; sourceTree = "<group>"; };
 		756E92942C9C8DFB00378F6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		756E92972C9C8DFB00378F6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		756E929E2C9C8E2800378F6F /* Artworks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artworks.swift; sourceTree = "<group>"; };
+		756E92A22C9C8E6D00378F6F /* ArtworksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworksViewModel.swift; sourceTree = "<group>"; };
+		756E92A72C9C975800378F6F /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
+		756E92A92C9C977E00378F6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8E1E5A9A2CC693F300F0F569 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		8E1E5A9C2CC695E900F0F569 /* ArtistViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistViewModel.swift; sourceTree = "<group>"; };
+		8E1E5AA32CC6A14E00F0F569 /* ArtistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsView.swift; sourceTree = "<group>"; usesTabs = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +66,11 @@
 		756E928F2C9C8DFA00378F6F /* myArt */ = {
 			isa = PBXGroup;
 			children = (
+				756E92A92C9C977E00378F6F /* Info.plist */,
 				756E92902C9C8DFA00378F6F /* myArtApp.swift */,
-				756E92922C9C8DFA00378F6F /* ContentView.swift */,
+				756E92A02C9C8E2D00378F6F /* Models */,
+				756E92A12C9C8E3900378F6F /* Views */,
+				756E92A42C9C8E7300378F6F /* ViewModels */,
 				756E92942C9C8DFB00378F6F /* Assets.xcassets */,
 				756E92962C9C8DFB00378F6F /* Preview Content */,
 			);
@@ -65,6 +83,35 @@
 				756E92972C9C8DFB00378F6F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		756E92A02C9C8E2D00378F6F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8E1E5A9A2CC693F300F0F569 /* Artist.swift */,
+				756E929E2C9C8E2800378F6F /* Artworks.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		756E92A12C9C8E3900378F6F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				756E92922C9C8DFA00378F6F /* GaleryView.swift */,
+				755F38E52CC3016300ADE2A8 /* ArtworkDetailView.swift */,
+				756E92A72C9C975800378F6F /* ARView.swift */,
+				8E1E5AA32CC6A14E00F0F569 /* ArtistsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		756E92A42C9C8E7300378F6F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8E1E5A9C2CC695E900F0F569 /* ArtistViewModel.swift */,
+				756E92A22C9C8E6D00378F6F /* ArtworksViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +184,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				756E92932C9C8DFA00378F6F /* ContentView.swift in Sources */,
+				756E929F2C9C8E2800378F6F /* Artworks.swift in Sources */,
+				756E92932C9C8DFA00378F6F /* GaleryView.swift in Sources */,
 				756E92912C9C8DFA00378F6F /* myArtApp.swift in Sources */,
+				8E1E5A9D2CC6963800F0F569 /* ArtistViewModel.swift in Sources */,
+				8E1E5AA42CC6A14E00F0F569 /* ArtistsView.swift in Sources */,
+				756E92A32C9C8E6D00378F6F /* ArtworksViewModel.swift in Sources */,
+				756E92A82C9C975800378F6F /* ARView.swift in Sources */,
+				755F38E62CC3016300ADE2A8 /* ArtworkDetailView.swift in Sources */,
+				8E1E5A9B2CC6940800F0F569 /* Artist.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,12 +323,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"myArt/Preview Content\"";
 				DEVELOPMENT_TEAM = JGCN4FMFL8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = myArt/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -287,6 +343,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Masside.myArt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,12 +355,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"myArt/Preview Content\"";
 				DEVELOPMENT_TEAM = JGCN4FMFL8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = myArt/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -316,6 +375,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Masside.myArt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
