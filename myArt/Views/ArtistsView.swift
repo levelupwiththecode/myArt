@@ -7,13 +7,13 @@
 
 import SwiftUI
 
-struct SwiftUIView: View {
+struct ArtistsView: View {
     @StateObject private var viewModel = ArtistViewModel()
     
     let columns = [
-            GridItem(.flexible()),
-            GridItem(.flexible())
-        ]
+        GridItem(.flexible()),
+        GridItem(.flexible())
+    ]
     
     var body: some View {
         NavigationView {
@@ -25,27 +25,28 @@ struct SwiftUIView: View {
                 
                 LazyVGrid(columns: columns, spacing: 20) {
                     ForEach(viewModel.artists) {
-                        artist in
-                        
-                        VStack {
-                            Image(artist.image)
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 150, height: 150)
-                            
-                            HStack {
-                                Text(artist.firstname)
-                                Text(artist.lastname)
+                        artist in NavigationLink(destination: ArtistDetailView(artist: artist)) {
+                            VStack {
+                                Image(artist.image)
+                                    .resizable()
+                                    .scaledToFit()
+                                    .frame(width: 150, height: 150)
+                                
+                                HStack {
+                                    Text(artist.firstname)
+                                        .foregroundColor(Color.black)
+                                    Text(artist.lastname)
+                                        .foregroundColor(Color.black)
+                                }
                             }
                         }
                     }
                 }
             }
+            
         }
-        
     }
 }
-
 #Preview {
-    SwiftUIView()
+    ArtistsView()
 }

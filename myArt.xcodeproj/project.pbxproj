@@ -18,6 +18,7 @@
 		8E1E5A9B2CC6940800F0F569 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E5A9A2CC693F300F0F569 /* Artist.swift */; };
 		8E1E5A9D2CC6963800F0F569 /* ArtistViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E5A9C2CC695E900F0F569 /* ArtistViewModel.swift */; };
 		8E1E5AA42CC6A14E00F0F569 /* ArtistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E5AA32CC6A14E00F0F569 /* ArtistsView.swift */; };
+		8E1E5AA62CC92A6400F0F569 /* ArtistDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E5AA52CC92A6400F0F569 /* ArtistDetailView.swift */; };
 		F5109CE62CC8F94600B49DDF /* Museum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5109CE52CC8F94600B49DDF /* Museum.swift */; };
 		F5109CE92CC8F95300B49DDF /* DiscoverGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5109CE82CC8F95300B49DDF /* DiscoverGalleryView.swift */; };
 		F5109CEA2CC8F95300B49DDF /* DetailMuseumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5109CE72CC8F95300B49DDF /* DetailMuseumView.swift */; };
@@ -38,6 +39,7 @@
 		8E1E5A9A2CC693F300F0F569 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		8E1E5A9C2CC695E900F0F569 /* ArtistViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistViewModel.swift; sourceTree = "<group>"; };
 		8E1E5AA32CC6A14E00F0F569 /* ArtistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsView.swift; sourceTree = "<group>"; usesTabs = 0; };
+		8E1E5AA52CC92A6400F0F569 /* ArtistDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailView.swift; sourceTree = "<group>"; };
 		F5109CE52CC8F94600B49DDF /* Museum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Museum.swift; sourceTree = "<group>"; };
 		F5109CE72CC8F95300B49DDF /* DetailMuseumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMuseumView.swift; sourceTree = "<group>"; };
 		F5109CE82CC8F95300B49DDF /* DiscoverGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverGalleryView.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				8E1E5AA32CC6A14E00F0F569 /* ArtistsView.swift */,
 				F5109CE72CC8F95300B49DDF /* DetailMuseumView.swift */,
 				F5109CE82CC8F95300B49DDF /* DiscoverGalleryView.swift */,
+				8E1E5AA52CC92A6400F0F569 /* ArtistDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				8E1E5AA42CC6A14E00F0F569 /* ArtistsView.swift in Sources */,
 				756E92A32C9C8E6D00378F6F /* ArtworksViewModel.swift in Sources */,
 				756E92A82C9C975800378F6F /* ARView.swift in Sources */,
+				8E1E5AA62CC92A6400F0F569 /* ArtistDetailView.swift in Sources */,
 				755F38E62CC3016300ADE2A8 /* ArtworkDetailView.swift in Sources */,
 				F5109CE92CC8F95300B49DDF /* DiscoverGalleryView.swift in Sources */,
 				F5109CEA2CC8F95300B49DDF /* DetailMuseumView.swift in Sources */,
