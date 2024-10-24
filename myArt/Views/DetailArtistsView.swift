@@ -8,11 +8,10 @@
 import SwiftUI
 
 struct DetailArtistsView: View {
+    
+    var artists:Artist
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-#Preview {
-    DetailArtistsView()
-}

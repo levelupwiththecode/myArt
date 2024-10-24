@@ -27,7 +27,8 @@ struct ARViewContainer: UIViewRepresentable {
         // Ajouter du contenu à afficher
         let plane = SCNPlane(width: 0.5, height: 0.7)
         let material = SCNMaterial()
-        material.diffuse.contents = UIImage(named: artwork.imageName)
+        material.diffuse.contents = UIImage(named: artwork.imageArt)
+
         plane.materials = [material]
 
         let planeNode = SCNNode(geometry: plane)
@@ -50,6 +51,5 @@ struct ARView: View {
     ARView(artwork: Artwork(id: "2DE80E91-EE03-4A8D-9C32-97BBE6E8AB7E", title: "Les Tournesols", artist: "Vincent van Gogh", imageName: "sunflowers", year: "1888", description: "Un exemple d'une des œuvres iconiques de Van Gogh."))
 }
 */
-
 
 

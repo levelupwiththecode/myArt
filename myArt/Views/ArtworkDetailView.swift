@@ -1,10 +1,3 @@
-//
-//  ArtworkDetailView.swift
-//  myArt
-//
-//  Created by Massidé Dosso on 18/10/2024.
-//
-
 import SwiftUI
 
 struct ArtworkDetailView: View {
@@ -13,47 +6,35 @@ struct ArtworkDetailView: View {
     
     var body: some View {
         VStack {
-            Image(artwork.imageName)
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .frame(height: 300)
-                .cornerRadius(10)
-
-            Text(artwork.title)
+            
+            Image(artwork.imageArt)
+            
+            Text(artwork.nameArt)
                 .font(.title)
                 .padding()
-
-            Text("Artiste: \(artwork.artist)")
+            
+            Text("Artiste: \(artwork.nameArtistArt)")
                 .font(.subheadline)
                 .padding(.bottom, 5)
-
-            Text("Année: \(artwork.year)")
+            
+            Text("Année: \(artwork.dateArt)")
                 .font(.subheadline)
                 .padding(.bottom, 10)
-
-            Text(artwork.description)
+            
+            Text(artwork.descriptionArt)
+                .font(.title)
                 .padding()
-
-            Spacer()
+            
+            NavigationLink(destination: ARView(artwork: artwork)) {
+                Text("Voir en AR")
+                    .font(.headline)
+                    .foregroundColor(.white)
+                    .padding()
+                    .background(Color.black)
+                    .cornerRadius(15)
+            }
+            .padding()
+            
         }
-        
-        NavigationLink(destination: ARView(artwork: artwork)) {
-            Text("Voir en AR")
-                .font(.headline)
-                .foregroundColor(.white)
-                .padding()
-                .background(Color.black)
-                .cornerRadius(15)
-        }
-        .padding()
-        
     }
 }
-
-/*
-#Preview {
-    ArtworkDetailView()
-}
-
-*/
-

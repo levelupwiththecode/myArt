@@ -8,12 +8,14 @@
 import Foundation
 
 struct Artwork: Codable, Identifiable {
-    let id: Int
-    let title: String
-    let artist: String
-    let imageName: String
-    let year: String
-    let description: String
+    let id: UUID?
+    let nameArt: String
+    let nameArtistArt: String
+    let descriptionArt: String
+    let imageArt: String
+    let dateArt: String
+    let courantArtistiqueArt: String
+
 }
 
 
