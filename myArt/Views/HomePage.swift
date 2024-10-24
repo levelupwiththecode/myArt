@@ -108,7 +108,7 @@ struct HomePage: View {
                             HStack
                             {
                                 ForEach(viewModelArtist.artists){ artist in
-                                    NavigationLink(destination:DetailArtistsView(artists:artist ))
+                                    NavigationLink(destination:ArtistDetailView(artist: artist))
                                     {
                                         //remplacer par des images
                                         Image(artist.image)

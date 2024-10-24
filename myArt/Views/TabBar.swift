@@ -16,7 +16,7 @@ struct TabBar: View {
                     Label("Home", systemImage: "house.fill")
                 }
             
-            SwiftUIView()
+            ArtistsView()
                 .tabItem {
                     Label("Artist", systemImage: "person.3.fill")
                 }

@@ -24,7 +24,7 @@
 		F5109CEC2CC8F96200B49DDF /* MuseumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5109CEB2CC8F96200B49DDF /* MuseumViewModel.swift */; };
 		F5109D7A2CCA410100B49DDF /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5109D792CCA410100B49DDF /* HomePage.swift */; };
 		F5109D7C2CCA410900B49DDF /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5109D7B2CCA410900B49DDF /* TabBar.swift */; };
-		F5109D7E2CCA41AB00B49DDF /* DetailArtistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5109D7D2CCA41AB00B49DDF /* DetailArtistsView.swift */; };
+		F5109D7E2CCA41AB00B49DDF /* ArtistDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5109D7D2CCA41AB00B49DDF /* ArtistDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,7 +47,7 @@
 		F5109CEB2CC8F96200B49DDF /* MuseumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumViewModel.swift; sourceTree = "<group>"; };
 		F5109D792CCA410100B49DDF /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		F5109D7B2CCA410900B49DDF /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
-		F5109D7D2CCA41AB00B49DDF /* DetailArtistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailArtistsView.swift; sourceTree = "<group>"; };
+		F5109D7D2CCA41AB00B49DDF /* ArtistDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +120,7 @@
 				F5109CE82CC8F95300B49DDF /* DiscoverGalleryView.swift */,
 				F5109D792CCA410100B49DDF /* HomePage.swift */,
 				F5109D7B2CCA410900B49DDF /* TabBar.swift */,
-				F5109D7D2CCA41AB00B49DDF /* DetailArtistsView.swift */,
+				F5109D7D2CCA41AB00B49DDF /* ArtistDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -215,7 +215,7 @@
 				756E92A32C9C8E6D00378F6F /* ArtworksViewModel.swift in Sources */,
 				756E92A82C9C975800378F6F /* ARView.swift in Sources */,
 				F5109D7C2CCA410900B49DDF /* TabBar.swift in Sources */,
-				F5109D7E2CCA41AB00B49DDF /* DetailArtistsView.swift in Sources */,
+				F5109D7E2CCA41AB00B49DDF /* ArtistDetailView.swift in Sources */,
 				755F38E62CC3016300ADE2A8 /* ArtworkDetailView.swift in Sources */,
 				F5109CE92CC8F95300B49DDF /* DiscoverGalleryView.swift in Sources */,
 				F5109CEA2CC8F95300B49DDF /* DetailMuseumView.swift in Sources */,
